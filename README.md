@@ -11,6 +11,16 @@ Metacello new
     load.
 ```
 
+or
+
+```smalltalk
+Gofer new
+url:'http://smalltalkhub.com/mc/newapplesho/currencylayer-api-smalltalk/main';
+    package: 'ConfigurationOfCurrencylayer';
+    load.
+(Smalltalk at: #ConfigurationOfCurrencylayer) load.
+```
+
 ## Set up
 ```smalltalk
 CurrencylayerSettings default accessKey:'Your API Access Key'.
@@ -32,19 +42,22 @@ You can read official documentation [here](https://currencylayer.com/documentati
 ### Real-time Rates
 
 ```smalltalk
-currencylayer := Currencylayer new.currencylayer live:#('AUD' 'EUR' 'GBP' 'PLN').
+currencylayer := Currencylayer new.
+currencylayer live:#('AUD' 'EUR' 'GBP' 'PLN').
 ```
 
 ### Source Currency Switching
 
 ```smalltalk
-currencylayer := Currencylayer new.currencylayer sourceCurrency: 'JPY'.
+currencylayer := Currencylayer new.
+currencylayer sourceCurrency: 'JPY'.
 ```
 
 ### Currency Conversion Endpoint
 
 ```smalltalk
-currencylayer := Currencylayer new.currencylayer convert: 100 from: 'JPY' to: 'USD'.  "print it"
+currencylayer := Currencylayer new.
+currencylayer convert: 100 from: 'JPY' to: 'USD'.  "print it"
 ```
 
 Example response
