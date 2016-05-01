@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"baseResourceUrl" : "ShoYoshida 5/1/2016 18:00",
+		"client" : "ShoYoshida 5/1/2016 17:07",
+		"convert:date:from:to:" : "ShoYoshida 5/1/2016 18:38",
+		"convert:from:to:" : "ShoYoshida 5/1/2016 18:38",
+		"defaultClient" : "ShoYoshida 5/1/2016 17:07",
+		"defaultResponseClass" : "ShoYoshida 5/1/2016 17:33",
+		"get:" : "ShoYoshida 5/1/2016 17:37",
+		"list" : "ShoYoshida 5/1/2016 17:38",
+		"live:" : "ShoYoshida 5/1/2016 18:20",
+		"readJsonFromResponse:" : "ShoYoshida 5/1/2016 17:32",
+		"settings" : "ShoYoshida 5/1/2016 17:15",
+		"sourceCurrency" : "ShoYoshida 5/1/2016 17:59",
+		"sourceCurrency:" : "ShoYoshida 5/1/2016 17:59" } }

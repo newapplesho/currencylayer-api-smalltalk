@@ -1,0 +1,14 @@
+{
+	"category" : "Currencylayer-Core",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"settingsDict" ],
+	"name" : "CurrencylayerSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

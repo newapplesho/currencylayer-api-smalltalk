@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"default" : "ShoYoshida 5/1/2016 16:59",
+		"initialize" : "ShoYoshida 5/1/2016 16:59" },
+	"instance" : {
+		"accessKey" : "ShoYoshida 5/1/2016 16:58",
+		"accessKey:" : "ShoYoshida 5/1/2016 16:59",
+		"at:" : "ShoYoshida 5/1/2016 16:58",
+		"at:ifAbsent:" : "ShoYoshida 5/1/2016 16:57",
+		"at:ifAbsentPut:" : "ShoYoshida 5/1/2016 16:57",
+		"at:put:" : "ShoYoshida 5/1/2016 16:57",
+		"scheme" : "ShoYoshida 5/1/2016 17:18",
+		"settingsDict" : "ShoYoshida 5/1/2016 16:57",
+		"useSSL" : "ShoYoshida 5/1/2016 17:17",
+		"useSSL:" : "ShoYoshida 5/1/2016 17:17" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Currencylayer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"response" ],
+	"name" : "CurrencylayerResponse",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Currencylayer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"properties" ],
+	"name" : "CurrencylayerException",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }
