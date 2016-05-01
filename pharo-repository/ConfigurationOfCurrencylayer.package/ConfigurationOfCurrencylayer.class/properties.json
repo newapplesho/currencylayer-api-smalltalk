@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfCurrencylayer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfCurrencylayer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
