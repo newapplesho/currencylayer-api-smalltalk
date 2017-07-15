@@ -2,6 +2,9 @@
 
 Pharo Smalltalk wrapper for [currencylayer API](https://currencylayer.com).
 
+## Supported Smalltalk Versions
+[Pharo Smalltalk](http://pharo.org/) 4.0, 5.0
+
 ## Installation
 
 ```smalltalk
