@@ -63,5 +63,19 @@ currencylayer convert: 100 from: 'JPY' to: 'USD'.  "print it"
 Example response
 
 ```json
-{"privacy":"https://currencylayer.com/privacy","success":true,"info":{"timestamp":1462096813,"quote":0.009402},"query":{"to":"USD","from":"JPY","amount":100},"terms":"https://currencylayer.com/terms","result":0.9402}
+{
+   "privacy":"https://currencylayer.com/privacy",
+   "success":true,
+   "info":{
+      "timestamp":1462096813,
+      "quote":0.009402
+   },
+   "query":{
+      "to":"USD",
+      "from":"JPY",
+      "amount":100
+   },
+   "terms":"https://currencylayer.com/terms",
+   "result":0.9402
+}
 ```
