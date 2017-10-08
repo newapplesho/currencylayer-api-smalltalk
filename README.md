@@ -1,9 +1,9 @@
-# currencylayer-api-smalltalk
+# currencylayer-api-smalltalk [![Build Status](https://travis-ci.org/newapplesho/currencylayer-api-smalltalk.svg?branch=master)](https://travis-ci.org/newapplesho/currencylayer-api-smalltalk)
 
 Pharo Smalltalk wrapper for [currencylayer API](https://currencylayer.com).
 
 ## Supported Smalltalk Versions
-[Pharo Smalltalk](http://pharo.org/) 4.0, 5.0
+[Pharo Smalltalk](http://pharo.org/) 4.0, 5.0, 6.0, 6.1
 
 ## Installation
 
@@ -12,16 +12,6 @@ Metacello new
     baseline: 'Currencylayer';
     repository: 'github://newapplesho/currencylayer-api-smalltalk:v0.1/pharo-repository';
     load.
-```
-
-or
-
-```smalltalk
-Gofer new
-url:'http://smalltalkhub.com/mc/newapplesho/currencylayer-api-smalltalk/main';
-    package: 'ConfigurationOfCurrencylayer';
-    load.
-(Smalltalk at: #ConfigurationOfCurrencylayer) load.
 ```
 
 ## Set up
@@ -66,19 +56,5 @@ currencylayer convert: 100 from: 'JPY' to: 'USD'.  "print it"
 Example response
 
 ```json
-{
-   "privacy":"https://currencylayer.com/privacy",
-   "success":true,
-   "info":{
-      "timestamp":1462096813,
-      "quote":0.009402
-   },
-   "query":{
-      "to":"USD",
-      "from":"JPY",
-      "amount":100
-   },
-   "terms":"https://currencylayer.com/terms",
-   "result":0.9402
-}
+{"privacy":"https://currencylayer.com/privacy","success":true,"info":{"timestamp":1462096813,"quote":0.009402},"query":{"to":"USD","from":"JPY","amount":100},"terms":"https://currencylayer.com/terms","result":0.9402}
 ```
